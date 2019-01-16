@@ -38,7 +38,9 @@
     export default {
         data(){
             return{
-            email: null,
+            //declarar envio da variável
+            nome: null,
+            //variáveis de entrada
             title:'Entre com seu nome.',
                 img:{
                     url:'/src/assets/bruno.jpg',

@@ -4,7 +4,7 @@ import PageTwo from './components/PageTwo';
 import PageTwoMenu from './components/PageTwoMenu';
 import TwoA from './components/TwoA';
 import TwoB from './components/TwoB';
- 
+
 export const routes = [
     {path: '/', component: Home, name: 'home'},
     {path: '/page-one', component: PageOne, name: 'one'},

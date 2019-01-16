@@ -45,6 +45,7 @@
         name: 'my-tour',
         data () {
             return {
+                //variáveis do tour
                 steps: [
                     {
                         target: '[data-v-step="0"]',
