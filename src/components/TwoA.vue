@@ -1,41 +1,50 @@
 <template>
     <div>
-        <h1>Quem sou Eu</h1>
+        <h2>Quem sou Eu?</h2>
+        <div class="well well-lg">
+            <div class="media">
+                <div class="media-left media-middle">
+                    <a href="#">
+                        <picture>
+                            <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded" width="64" height="auto">
+                        </picture>
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h3 class="media-heading">Bruno Depieri Barduchi, 32 anos, Casado</h3>
+                    <p>Mais conhecido como Coió, apelido carinhoso adquirido na 8ª Série.<br />
+                    Formado em Marketing, Sistemas para web e MBA em Gestão de Projetos procuro por novos desafios.<br /></p>
+                </div>
+                <div class="">
+                    <ul>
+                        <li>Trabalhei em agências na cidade de Indaiatuba, fui gerente de uma equipe, mas sempre buscando novos desafios, entrei de cabeça em uma empresa em Campinas que desenvolvia vido conferências, desenvolvi plataformas de streaming e on-demand.</li>
+                        <li>Procurei novas perspectivas, comecei então na área de design, a faculdade que me formei me apresentou uma proposta na época irrecusável, desenvolver peças visuais e digitais, desenvolvimento em Marketing, mas como tudo que é bom dura pouco, retornei a área de desenvolvimento.</li>
+                        <li>Não satisfeito e apaixonado por esportes, iniciei na área do Futebol Americano, mas em uma modalidade específica, Flag Football, já fui jogador, capitão da defesa, coordenador, auxiliar técnico e hoje tenho a honra de ser o HC (Head Coach) e Vice Presidente do Indaiatuba Alpacas Flag Football.</li>
+                        <li>Atualmente prestando serviços Autônomo, mantenho minha vida entre altos e baixos.</li>
+                        <li>Nas horas vagas gosto de jogos de computador, música, churrasco e Família.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <div id="v-step-0">A DOM element on your page. The first step will pop on this element because its ID is 'v-step-0'.</div>
-        <div class="v-step-1">A DOM element on your page. The second step will pop on this element because its ID is 'v-step-1'.</div>
-        <div data-v-step="2">A DOM element on your page. The third and final step will pop on this element because its ID is 'v-step-2'.</div>
-
-        <v-tour name="myTour" :steps="steps"></v-tour>
+        <blockquote>
+            <p>Aprender Sempre!</p>
+            <footer>Não importa o quanto acho que sei, a única certeza é que tenho muito a aprender ainda.</footer>
+        </blockquote>
     </div>
 </template>
  
 <script>
     export default {
-        name: 'my-tour',
-        data () {
-            return {
-                steps: [
-                {
-                    target: '#v-step-0',  // We're using document.querySelector() under the hood
-                    content: `Discover <strong>Vue Tour</strong>!`
-                },
-                {
-                    target: '.v-step-1',
-                    content: 'An awesome plugin made with Vue.js!'
-                },
-                {
-                    target: '[data-v-step="2"]',
-                    content: 'Try it, you\'ll love it!<br>You can put HTML in the steps and completely customize the DOM to suit your needs.',
-                    params: {
-                    placement: 'top'
-                    }
+        data(){
+            return{
+            email: null,
+            title:'Entre com seu nome.',
+                img:{
+                    url:'/src/assets/bruno.jpg',
+                    alt:'Bruno Depieri Barduchi'
                 }
-                ]
             }
-        },
-        mounted: function () {
-        this.$tours['myTour'].start()
         }
     }
 </script>

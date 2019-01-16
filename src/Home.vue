@@ -3,7 +3,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
                 <picture class="center-block">
-                    <img :src="img.url" :alt="img.alt" class="img-rounded img-responsive">
+                    <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded img-responsive">
                 </picture>
             </div>
         </div>
@@ -33,7 +33,7 @@
             email: null,
             title:'Entre com seu nome.',
                 img:{
-                    url:'https://cdn.contact2sale.com/assets/app-icon-1d21d5d906cd5bfdf2c156d5b5d172cce6ac0217f6a259120e3f0dd323772b88.png',
+                    url:'/src/assets/logo.png',
                     alt:'logo'
                 }
             }
