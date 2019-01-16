@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <ul class="list-group">
+            <router-link
+                tag="li"
+                to="/page-two/a"
+                class="list-group-item"
+                style="cursor: pointer">Quem é Bruno Depieri Barduchi?
+            </router-link>
+            <router-link
+                tag="li"
+                to="/page-two/b"
+                class="list-group-item"
+                style="cursor: pointer">E suas Skills?
+            </router-link>
+        </ul>
+    </div>
+</template>

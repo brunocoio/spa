@@ -1,0 +1,29 @@
+[33mcommit d79939963b888420c3dcffaee36b5dcd47377093[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Bruno Depieri Barduchi <brunodbproxy@gmail.com>
+Date:   Mon Nov 12 17:01:26 2018 -0200
+
+    inserção de request e validador de campos
+
+[33mcommit 44eef0f68f11c5eba478327580a0d20a740ff7d7[m
+Author: Bruno Depieri Barduchi <brunodbproxy@gmail.com>
+Date:   Sat Nov 10 15:46:27 2018 -0200
+
+    inserção e exclusão aplicados no projeto
+
+[33mcommit 954ce0a4b6dc8e103e4711751a615aac10e1c808[m
+Author: Bruno Depieri Barduchi <brunodbproxy@gmail.com>
+Date:   Sat Nov 10 11:58:13 2018 -0200
+
+    inserção de listagem e detalhes de servidor
+
+[33mcommit 21cc72a98235af282da7667331bd978112390f70[m
+Author: Bruno Depieri Barduchi <brunodbproxy@gmail.com>
+Date:   Fri Nov 9 19:44:43 2018 -0200
+
+    inserção de banco de dados e vínculo ao projeto, 20 min
+
+[33mcommit 6ab7080608e5fcc74dcd2b110152d97161316bc8[m
+Author: Bruno Depieri Barduchi <brunodbproxy@gmail.com>
+Date:   Fri Nov 9 16:17:08 2018 -0200
+
+    inserção de estrutura de pastas laravel 5.7 e auth
