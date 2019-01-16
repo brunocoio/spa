@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h2>Quem sou Eu?</h2>
+        <h2>Quem sou Eu? <small><router-link to="/page-two" class="nav-link pull-right" active-class="active" style="cursor: pointer"><i class="fas fa-chevron-circle-left"></i> Voltar</router-link></small></h2>
         <div class="well well-lg">
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#">
                         <picture>
-                            <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded" width="64" height="auto">
+                            <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded" width="100" height="auto">
                         </picture>
                     </a>
                 </div>

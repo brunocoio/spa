@@ -4,7 +4,7 @@
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="">
                     <picture class="center-block">
-                        <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded img-responsive">
+                        <img :src="img.url" :alt="img.alt" :title="img.alt" class="img-rounded img-responsive center-block">
                     </picture>
                 </div>
             </div>
@@ -17,7 +17,7 @@
                     </div>
                     <router-link 
                     :to="{ name: 'one', query:{nome:this.nome}}" 
-                    class="btn btn-info" 
+                    class="btn btn-info btn-lg btn-block" 
                     active-class="active" 
                     style="cursor: pointer">
                     Prosseguir <i class="fas fa-chevron-circle-right"></i>
