@@ -13,7 +13,7 @@
                 <div class="media-body">
                     <h3 class="media-heading">Bruno Depieri Barduchi, 32 anos, Casado</h3>
                     <p>Mais conhecido como Coió, apelido carinhoso adquirido na 8ª Série.<br />
-                    Formado em Marketing, Sistemas para web e MBA em Gestão de Projetos procuro por novos desafios.<br /></p>
+                    Formado em Marketing, Sistemas para Web e MBA em Gestão de Projetos procuro por novos desafios.<br /></p>
                 </div>
                 <div class="">
                     <ul>
