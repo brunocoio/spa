@@ -29,7 +29,12 @@
 
         <blockquote>
             <p>Aprender Sempre!</p>
-            <footer>Não importa o quanto acho que sei, a única certeza é que tenho muito a aprender ainda.</footer>
+            <footer>Não importa o quanto acho que sei, a única certeza é que tenho muito a aprender ainda.<br />
+            <p><a href="https://www.linkedin.com/in/brunobarduchi" target="_blank">https://www.linkedin.com/in/brunobarduchi</a></p>
+            <p><a href="http://viateste.com.br" target="_blank">http://viateste.com.br</a></p>
+            <p><a href="https://github.com/brunocoio" target="_blank">https://github.com/brunocoio</a></p>
+            <p><a href="https://stackoverflow.com/users/6801560/bruno-depieri-barduchi" target="_blank">https://stackoverflow.com/users/6801560/bruno-depieri-barduchi</a></p>
+            </footer>
         </blockquote>
     </div>
 </template>
